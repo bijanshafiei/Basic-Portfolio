@@ -24,13 +24,33 @@ h1, h2, h3 {
 
 }
 
+h1, h2, h3, p {
+	margin-bottom: 20px;
+}
+
 #main-header {
 	width: 100%;
 	background: #fff;
-	margin-bottom: 30px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	overflow: auto;
+	
 
+}
+
+#logo {
+	float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
 }
 
 nav {
@@ -39,10 +59,38 @@ nav {
 }
 
 nav a {
-	margin-right: 10px;
-	padding-left: 10px;
-	border-left: 2px solid #efefef;
+	height: 90px;
+	line-height: 90px;
+	padding-left: 15px;
+    margin-left: 15px;
+    color: #999;
+    border-left: 2px solid #999;
+    text-decoration: none;
 }
 
+.body {
+	float: left;
+	width: 100%;
+	max-width: 650px;
+	line-height: 20px;
+	padding-left: 10px;
+	background: #fff;
+}
 
+aside {
+	float: right;
+	width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
 
+footer {
+	clear: both;
+	overflow: auto;
+	padding: 30px;
+	background: #777;
+	color: #ccc;
+}
