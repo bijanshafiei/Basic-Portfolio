@@ -8,35 +8,64 @@
 </head>
 
 <body>
+	
 
-	<header>
-		<h1>
-			Bijan Shafiei
-		</h1>
-	</header>
-
+	<header id="main-header">
+		<div class="container">
+		<a href="index.html" id="logo">Bijan Shafiei
+		</a>
+		</div>
 	<nav>
 		<a href="about.html">About</a>
 		<a href="portfolio.html">Portfolio</a>
 		<a href="contact.html">Contact</a>
 	</nav>
 
-	<section>
-		<h2>
+	</header>
+
+	<div id="main-container" class="container">
+		<section class="main-section">
+		<h1>
 			Contact
-		</h2>
-		<hr>
-		<form action="#" method="get">
-		Name:<br>
-		<input type="text" name="Name">
-		Email:<br>
-		<input type="text" name="Email">
-		Message:<br>
-		<textarea name="message"></textarea>
-		<br>
-  		<input type="button" name="Submit" value="Submit">
+		</h1>
+		
+		<form id="contact-form">
+			<ul>
+				<li>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="Your Name" required="required">
+				</li>
+				 <li>
+            		<label for="email">Email</label>
+           	 		<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+         		 </li>
+          		<li>
+           			<label for="message">Message</label>
+            		<textarea id="message" name="message" required="required"></textarea>
+          		</li>
+        	</ul>
+        	<input type="submit">
+      	</form>
+
 	</section>
 
 
+<aside class="connectbox">
+		<h2>
+			Connect with me!
+		</h2>
+
+		<img src="assets/images/1491882253_mark-github.png" alt="github" class="socialSprite" height="40" width="40">
+		<img src="assets/images/1491882275_linkedin_square_color.png" alt="linkedin" class="socialSprite" height="40" width="40">
+		<img src="assets/images/1491882296_stackoverflow.png" alt="stackoverflow" class="socialSprite" height="40" width="40">
+	</aside>
+	</div>
+
+
 </body>
+
+	<footer>
+		<h5>&copy;2017 Bijan Shafiei&copy;</h5>
+	</footer>
+
 </html>
